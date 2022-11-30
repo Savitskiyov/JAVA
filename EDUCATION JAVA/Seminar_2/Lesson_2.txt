@@ -1,0 +1,6 @@
+.\.git
+.\.gitignore
+.\.idea
+.\EDUCATION JAVA
+.\JAVA.iml
+.\out
