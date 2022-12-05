@@ -5,12 +5,9 @@ package Seminar_2;
 Обработайте ошибки с помощью try-catch конструкции.
 В случае возникновения исключения, оно должно записаться в лог-файл.
  */
-import java.io.BufferedReader;
+
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Lesson_2 {
 
