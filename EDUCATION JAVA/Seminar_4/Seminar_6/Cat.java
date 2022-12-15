@@ -1,4 +1,4 @@
-package Seminar_6;
+package Seminar_4.Seminar_6;
 
 public class Cat {
     // для информационной системой ветеринарной клиники
