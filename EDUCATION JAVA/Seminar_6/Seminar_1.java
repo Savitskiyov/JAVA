@@ -1,4 +1,4 @@
-package Seminar_4.Seminar_6;
+package Seminar_6;
 
 import java.util.ArrayList;
 import java.util.HashSet;
