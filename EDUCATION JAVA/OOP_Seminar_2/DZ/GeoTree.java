@@ -1,8 +1,8 @@
 package OOP_Seminar_2.DZ;
 
 import java.util.ArrayList;
-
-public class GeoTree {
+import java.io.Serializable;
+public class GeoTree implements Serializable{
     private ArrayList<Node> tree = new ArrayList<>();
 
     public ArrayList<Node> getTree() {

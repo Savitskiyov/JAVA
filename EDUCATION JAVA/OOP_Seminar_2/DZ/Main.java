@@ -1,6 +1,6 @@
 package OOP_Seminar_2.DZ;
-
-public class Main {
+import java.io.Serializable;
+public class Main implements Serializable {
         public static void main(String[] args) {
                 Person irina = new PersonWoman("Ирина", 35);
                 Person vasya = new PersonMan("Вася", 5);
@@ -29,11 +29,10 @@ public class Main {
                 System.out.println(new Reserch(gt).spend2(10)); // Вывод всех людей старше 10
                 System.out.println("Вывод людей старше vasya:");
                 System.out.println(new Reserch(gt).spend3(vasya)); // Вывод людей старше vasya
-
-                WriteFile writeF = new WriteFile(gt);
+                WriteFile fw = new WriteFile();
+                fw.save(new Reserch(gt).spend2(10));
                 System.out.println();
                 System.out.println("Вывод всего списка:");
-                System.out.println(writeF.spend());
 
                 System.out.println(((Person) irina).getGender()); // Запрос пола irina
 
